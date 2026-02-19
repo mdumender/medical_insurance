@@ -1,0 +1,16 @@
+streamlit 
+pandas 
+joblib
+os
+
+sklearn.model_selection import train_test_split, GridSearchCV
+from sklearn.preprocessing import StandardScaler, OneHotEncoder
+from sklearn.compose import ColumnTransformer
+from sklearn.pipeline import Pipeline
+
+from sklearn.linear_model import Lasso
+from sklearn.neighbors import KNeighborsRegressor
+from sklearn.ensemble import RandomForestRegressor
+from xgboost import XGBRegressor
+
+from sklearn.metrics import mean_absolute_error
